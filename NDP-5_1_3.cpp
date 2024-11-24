@@ -1,6 +1,6 @@
 // NDP-5_1_3.cpp
 // 
-// Non-Deterministic Processor (NDP) - Efficient Parallel SAT-Solver
+// Non-Deterministic Processor (NDP) - Parallel SAT-Solver with OpenMPI for unlimited scalability
 // 
 // Copyright (c) 2024 GridSAT Stiftung
 // 
