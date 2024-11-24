@@ -141,7 +141,7 @@ chmod 644 /path/to/mpi_hostfile
 
 ## Compilation
 
-To compile the program on Linux (tested on Ubuntu 24.04.1 LTS), use the following command (compile on every node):
+To compile the program on Linux (tested on `Ubuntu 24.04.1 LTS`), use the following command (compile on every node):
 ```bash
 mpic++ -std=c++17 -Ofast -o NDP-5_1_3 NDP-5_1_3.cpp -lgmpxx -lgmp
 ```
