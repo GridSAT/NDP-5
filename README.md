@@ -165,7 +165,8 @@ mpirun --use-hwthread-cpus --map-by slot --hostfile <hostfile_path> --mca plm_rs
 `-d` depth: Set a custom depth for BFS iterations. (Optional)  
 `-t` max_tasks: Set the maximum number of tasks for BFS. (Optional)  
 `-q` max_queues: Limit the maximum number of tasks in the BFS queue. (Optional)  
-`-a` find_all_assignments: Finds all assignments (if any) and outputs a summary file `_sum.txt` including #Solutions. (Optional)
+`-a` find_all_assignments: Finds all assignments (if any) and outputs a summary file `_sum.txt`
+     including #Solutions. (Optional)
   
 
 Basic execution with nodes (example):  
@@ -205,6 +206,7 @@ The output file will be saved on the node which found the solution in the format
 Example:  
 `NDP-5_2_3_rsaFACT-128bit_8dfcb_auto.txt` (no cli option for Depth/#Tasks/Queue Size)  
 `On node: node7`
+
 With CLI `-a` every assignment is saved separately on-the-fly with an additional summary file `_sum.txt` with #Solutions
 
 ## NOTE:
