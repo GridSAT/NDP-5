@@ -5,7 +5,10 @@ into independent subproblems with BFS (Breadth-First Search), and performs paral
 `NDP 5.6.7` supports custom configuration through command-line options, leveraging OpenMPI for
 distributed multi-node computation ready for spot instances. The NDP outputs dynamically generated
 file names based on the input parameters and a truncated problem ID hash with the current UTC time.
-Version `5.6.7` runs in spot environments with `-s` and `-r` CLI options to save and resume from BFS results.
+Version `5.6.7` runs in spot environments with `-s` and `-r` CLI options to save and resume from BFS results.  
+
+`NDP-5_6_7.cpp` [IPFS CID](https://ipfs.tech): `QmR1cxLgYHxNuihYb11B9NkTTBBVm9RNKgBXf7EjSqwhof`  
+`ClauseSetPool.hpp` [IPFS CID](https://ipfs.tech): `QmcM47BsTSgRGvxS7V3AWV1tnCiUxUp3yfWTgdMmFAMRQH`  
 
 ---
 
